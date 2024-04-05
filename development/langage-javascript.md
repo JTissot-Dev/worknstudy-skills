@@ -6,34 +6,51 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
-- les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
-- les spécifités du mot-clef `this` ❌ / ✔️
+- les `structures` de base du langage  ✔️
+- les normes `ecmascript`  ✔️
+- l'utilisation de l'`asynchrone`  ✔️
+- les spécifités du mot-clef `this`  ✔️
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté  ✔️
 
 ```javascript
-(e) => mc2;
+const myArray = [1, 2, 3, 4, 5]; // Déclaration d'une variable constante et affectation d'une valeur de type tableau (non-primitive)
+const updatedArray = array.map(value => value + 1); // Déclaration d'une variable constante et affectation du précédent tableau avec une fonction de rappel = valeur +1 sur chaque élément.
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet  ✔️
 
-[lien github](...)
+[lien github](https://github.com/JTissot-Dev/CoopImmoGestion)
 
-Description :
+Description : Projet de gestion locative, utilisation en natif dans le cadre de la validation de formulaire.
 
-### J'ai utilisé ce langage en production ❌ / ✔️
+[lien github](https://github.com/JTissot-Dev/task-planner)
 
-[lien du projet](...)
+Description : Projet copie Trello, utilisation avec React
 
-Description :
+[lien github](https://github.com/JTissot-Dev/portfolio-jt)
 
-### J'ai utilisé ce langage en environement professionnel ❌ / ✔️
+Description : Portfolio, utilisation avec React
 
-Description :
+### J'ai utilisé ce langage en production  ✔️
+
+[lien du projet](https://coopimmogestion.fly.dev)
+
+Description : Utilisation en natif dans le cadre de la validation de formulaire.
+
+[lien du projet](https://tasks-planner.fly.dev)
+
+Description : Projet copie Trello, utilisation avec React
+
+[lien du projet](https://jtissot-portfolio.fr)
+
+Description : Projet copie Trello, utilisation avec React
+
+### J'ai utilisé ce langage en environement professionnel  ✔️
+
+Description : Utilisation avec jquery lors de mon alternance.
 
 ## 🌐 J'utilise des ressources
 

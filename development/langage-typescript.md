@@ -6,30 +6,39 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'intéret de TypeScript dans l'IDE ❌ / ✔️
-- les types de bases ❌ / ✔️
-- comment et pourquoi étendre une interface ❌ / ✔️
-- les classes et les decorators ❌ / ✔️
+- l'intéret de TypeScript dans l'IDE  ✔️
+- les types de bases ✔️
+- comment et pourquoi étendre une interface ✔️
+- les classes et les decorators ❌ 
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+```typescript
+const myArray: number[] = [1, 2, 3, 4, 5]; // Typage de la variable myArray de type liste de nombre, myArray ne pourra contenir que des nombres
+const updatedArray: number[] = array.map((value: number) => value + 1); // Typage du paramètre value, ne pourra contenir que des nombres.
+```
 
-[lien github](...)
+### Utilisation dans un projet  ✔️
 
-Description :
+[lien github](https://github.com/JTissot-Dev/ran-day)
 
-### Utilisation en production si applicable❌ / ✔️
+Description : Application permettant d'obtenir un programme d'activités aléatoire sur une journée, utilisation de TypeScript avec React.
 
-[lien du projet](...)
+[lien github](https://github.com/JTissot-Dev/laps-map)
 
-Description :
+Description : Projet en cours, utilisation avec Next.
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en production si applicable ✔️
 
-Description :
+[lien du projet](https://ran-day.vercel.app/index)
+
+Description : Application permettant d'obtenir un programme d'activités aléatoire sur une journée, utilisation de TypeScript avec React.
+
+### Utilisation en environement professionnel  ✔️
+
+Description : Utilisation actuelle avec React dans le cadre du développement d'un SIG.
 
 ## 🌐 J'utilise des ressources
 

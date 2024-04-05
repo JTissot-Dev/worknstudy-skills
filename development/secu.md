@@ -6,26 +6,26 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- Le rôle de l'OWASP ❌ / ✔️
-- Les injections SQL ❌ / ✔️
-- XSS ❌ / ✔️
-- CRSF ❌ / ✔️
+- Le rôle de l'OWASP ❌
+- Les injections SQL ✔️
+- XSS ❌
+- CRSF ❌
 
 ## 💻 J'utilise
 
 ### Un exemple personnel commenté ❌ / ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/JTissot-Dev/CoopImmoGestion)
 
-Description :
+Description : Echapement des caractère spéciaux récupérer dans la requête via la fonction "escape" de flask pour prévenir des injection sql. (au niveau des controlleurs)
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable ✔️
 
-[lien du projet](...)
+[lien du projet](https://coopimmogestion.fly.dev/connexion)
 
-Description :
+Description : Echapement des caractère spéciaux récupérer dans la requête via la fonction "escape" de flask pour prévenir des injection sql. (au niveau des controlleurs)
 
 ### Utilisation en environement professionnel ❌ / ✔️
 

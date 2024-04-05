@@ -6,34 +6,34 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- Comment développer en utilisant un système de *livereloading* (`nodemon` par exemple) ❌ / ✔️
-- La connexion de mon application à une base de données avec et sans ORM/ODM (avec `mongodb` puis `mongoose` par exemple) ❌ / ✔️
-- Le développement d'une API REST et GraphQL (avec les packages `express` et `graphql` par exemple) ❌ / ✔️
-- *Bonus : la manipulation des fichiers système avec `fs` et l'utilisation des streams en NodeJS* ❌ / ✔️
+- Comment développer en utilisant un système de *livereloading* (`nodemon` par exemple)  ✔️
+- La connexion de mon application à une base de données avec et sans ORM/ODM (avec `mongodb` puis `mongoose` par exemple)  ✔️
+- Le développement d'une API REST et GraphQL (avec les packages `express` et `graphql` par exemple)  ✔️
+- *Bonus : la manipulation des fichiers système avec `fs` et l'utilisation des streams en NodeJS* ❌ 
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté  ✔️
 
 ```javascript
-// this function takes a path to a .md file of the host system and write the HTML version of this file
-// the .html file is given back
-const convertMDFileToHTML = (pathToMDfile) => /* ... path to HTML file */
+  "dev": "dotenvx run --env-file=.env.dev -- ts-node-dev --respawn ./src/server.ts" // Ce script de commande permet de lancer le serveur d'application avec les variables d'environnement et la configuration spécifique au développement ainsi que d'actualiser le serveur de développement lors de mise à jour de fichier.
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet  ✔️
 
-[lien github](...)
+[lien github](https://github.com/JTissot-Dev/portfolio-jt)
 
-Description :
+Description : Portfolio, utilisation avec Express pour l'envoi de mail via un smtp.
 
-### Utilisation en production si applicable❌ / ✔️
 
-[lien du projet](...)
 
-Description :
+### Utilisation en production si applicable ✔️
 
-### Utilisation en environement professionnel ❌ / ✔️
+[lien du projet](https://jtissot-portfolio.fr)
+
+Description : Portfolio, utilisation avec Express pour l'envoi de mail via un smtp.
+
+### Utilisation en environement professionnel ❌ 
 
 Description :
 

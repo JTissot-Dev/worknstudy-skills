@@ -6,30 +6,47 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la différence entre REST et GraphQL ❌ / ✔️
-- les besoins auxquels répond GraphQL ❌ / ✔️
+- la différence entre REST et GraphQL ✔️
+- les besoins auxquels répond GraphQL  ✔️
 - la définition d'un schéma
-- Query ❌ / ✔️
-- Mutation ❌ / ✔️
-- Subscription ❌ / ✔️
+- Query  ✔️
+- Mutation  ✔️
+- Subscription ❌ 
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté  ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+``` typescript
+  const [delAd] = useMutation(DEL_AD, { // Utilisation du hook useMutation de apollo client pour réaliser la suppression d'un élément "Ad", DEL_AD correspond à la query GraphQL.
+    variables: { delAdId: Number(router.query.id) }, // Passage des variables à la query GraphQL
+    update(cache, { data: { delAd } }) { // Mise à jour du cache: data liste des annonces récupéré dans un autre composant, afin d'actualiser la liste d'item sans celui supprimer.
+      cache.modify({
+        fields: {
+          ads(existingAds = []) { // ads permet de spécifié sur quelle data du cache apollo on intervient
+            return existingAds.filter(
+              (adRef: any) => adRef.__ref !== `Ad:${delAd.id}` // ici on filtre les éléments dont la référence de l'élément dans le cache apollo ne correspondent pas à celui supprimer.
+            );
+          }
+        }
+      });
+    }
+  });
+```
 
-[lien github](...)
+### Utilisation dans un projet  ✔️
 
-Description :
+[lien github](https://github.com/JTissot-Dev/laps-map)
 
-### Utilisation en production si applicable❌ / ✔️
+Description : Projet en cours, utilisation avec Next.
+
+### Utilisation en production si applicable ❌ 
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
 
 Description :
 
